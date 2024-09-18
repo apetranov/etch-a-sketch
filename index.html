@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch A Sketch</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="size">
+      <h1>Enter canvas size (min 32 max 100):</h1>
+      <div>
+        <input type="text" placeholder="Ente size..." />
+        <button>Apply</button>
+        <button class="clear">Clear Canvas</button>
+      </div>
+    </div>
+    <div class="content">
+      <div class="colors">
+        <h1>Colors</h1>
+        <div class="colorsquares">
+          <div class="red"></div>
+          <div class="green"></div>
+          <div class="blue"></div>
+          <div class="yellow"></div>
+          <div class="purple"></div>
+          <div class="orange"></div>
+          <div class="black"></div>
+          <div class="eraser">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAASBJREFUSEvt1tENwjAMBFB3E5gE2IRNgEkQk8AmMAo9qZFc4zgXF6lCwn+tCK9OLmkHWamGlVz5WfgsIicReYnIbZw9XFO1pOO7iOyNcmHxLKxRdLtRD0DhGdii2wl+9uC9sIcWD13TeA9s19QbS+Ms3BMkCmfgTJA0jvAhB7Nqwddxjx6nEeUPqI5M4D6SHsEe2hMkPVOHcc8/dMs1OEIZXKMAATenmkEjfKdONBfFYNtxD1rDy/0qamGcu5gilJvE4PS3gQtRC5c3De4j/sDZaq5ptMa2YwSCwbtRb41110BbeAr1YNxj8TRagxl8ERrBHo5PG5Tep7jGcRgVEj47tVqwxdmE29+5XyStl8Q38DSc7TQcx3T8h78yA6tN9RtQvlwfMeatqQAAAABJRU5ErkJggg=="
+            />
+          </div>
+        </div>
+      </div>
+      <div class="canvas"></div>
+    </div>
+  </body>
+</html>
